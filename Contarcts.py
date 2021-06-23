@@ -2,7 +2,7 @@
 import streamlit as st
 import pandas as pd
 from PIL import Image
-import plotly.graph_objs as go
+
 
 
 
