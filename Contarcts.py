@@ -3,5 +3,10 @@ import streamlit as st
 
 
 
-st.title('Hi Kitopi')
 
+excel('C:/Users/Fawaz Almutairi/Desktop/Contractss.xlsx')
+df= pd.read_excel(excel)
+
+
+st.title('Hi Kitopi')
+st.write(df)
